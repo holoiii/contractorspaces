@@ -7,3 +7,8 @@ gem 'haml'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'thin'
+
+group :production do
+  gem 'rails_12factor'
+end
+
